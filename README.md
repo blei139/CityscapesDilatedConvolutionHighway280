@@ -11,14 +11,18 @@ Here is the instruction to run the videos:
 For just the dilated video:
 1) In Anaconda prompt, type these 2 commands:  
   python main_tf.py input.mp4
+  
   python data/test_videos/imgs2mp4.py imgs 
+  
   where input.mp4 is the input video file name which is located in the test_videos directory
   If you are interested in the input video file, just email me at blei139@gmail.com.  I will be happy to send the copy of the input
   video or you can use your own video by pasting it into the testvideos directory.
   
 For both the input video and dilated video combine together into one video for comparison:
 1) In Anaconda prompt, type these 2 commands:  
+
   python main_tf.py input.mp4
+  
   python data/test_videos/video2imgs.py input.mp4
   where input.mp4 is the input video file name which is located in the test_videos directory
   If you are interested in the input video file, just email me at blei139@gmail.com.  I will be happy to send the copy of the input
