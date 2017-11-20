@@ -7,7 +7,26 @@ or partially avoid the reduction of resolution altogether in the encoder, using 
 
 The result of my duplication of David Abati's github using my own images and video is sort of similar, but it is not as perfect as his own augmented image.  I modified his python code to generate a dilated convolutional video of my own.
 
-Here is the instruction to run the videos:
+Here are the requirements to run this repository:
+
+1. Download pretrained weights from here:
+
+    [CityScapes weights](https://drive.google.com/open?id=0Bx9YaGcDPu3XR0d4cXVSWmtVdEE)
+    
+    [CamVid weights](https://drive.google.com/open?id=0Bx9YaGcDPu3Xd0JrcXZpTEpkb0U)
+    
+2. Move weights file into [`data`](data) directory.
+
+3. Configuration requirements:
+
+This model has been tested with the following configuration:
+- Ubuntu 16.04
+- python 3.5.2
+- tensorflow 1.1.0
+- cv2 3.2.0
+
+
+Here is the instruction to generate the videos:
 For just the dilated video:
 1) In Anaconda prompt, type these 2 commands:  
   python main_tf.py input.mp4
