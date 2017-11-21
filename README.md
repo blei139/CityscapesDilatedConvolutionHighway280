@@ -31,7 +31,6 @@ For just the dilated video:
 1) In Anaconda prompt, type these 2 commands:  
   python main_tf.py input.mp4
   
-  python data/test_videos/imgs2mp4.py imgs 
   
   where input.mp4 is the input video file name which is located in the test_videos directory
   If you are interested in the input video file, just email me at blei139@gmail.com.  I will be happy to send the copy of the input
