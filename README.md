@@ -28,7 +28,7 @@ This model has been tested with the following configuration:
 
 Here is the instruction to generate the videos:
 For just the dilated video:
-1) In Anaconda prompt, type these 2 commands:  
+1) In Anaconda prompt, type this command:  
   python main_tf.py input.mp4
   
   
@@ -38,7 +38,7 @@ For just the dilated video:
   
 For both the input video and dilated video combine together into one video for comparison:
 1) In Anaconda prompt, type these 2 commands:  
-
+ 
   python main_tf.py input.mp4
   
   python data/test_videos/video2imgs.py input.mp4
